@@ -42,6 +42,6 @@ app.post("/create-payment-intent", async (req, res) => {
   }
 });
 
-app.listen(5252, () =>
-  console.log(`Node server listening at http://localhost:5252`)
+app.listen(5253, () =>
+  console.log(`Node server listening at http://localhost:5253`)
 );
